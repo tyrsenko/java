@@ -1,0 +1,11 @@
+sonar.projectName="Project Namev2"
+sonar.version="1.0"
+sonar.projectKey=testv2
+sonar.sources=/var/jenkins_home/workspace/git sonarqube
+sonar.scm.provider= git
+sonar.java.source=7
+sonar.projectVersion=1.0
+sonar.github.repository=tyrsenko
+sonar.github.pullRequest=${ghprbPullId}
+sonar.analysis.mode=preview
+sonar.log.level=INFO
