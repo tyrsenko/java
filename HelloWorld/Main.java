@@ -5,5 +5,8 @@ public class Main
 	
     {
        System unread = "TEST"; 
-    }
+
+       System.out.println("Hello world"); 
+
+   }
 }
